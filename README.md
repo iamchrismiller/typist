@@ -26,6 +26,7 @@ A Personal Typist for your website.
   ```
 
   Options
+
     - elementId (string)
     - cursor (string) default : |
     - typeSpeed (int) default : 100
