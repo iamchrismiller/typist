@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Typist</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body>
+<div class="intro">
+    <h2>Typist</h2>
+
+    <div class="github-bar">
+        <iframe src="http://ghbtns.com/github-btn.html?user=iamchrismiller&repo=grunt-casper&type=watch&count=false"
+                frameborder="0" scrolling="0" style="width:50px; height: 30px;" allowTransparency="true"></iframe>
+        <iframe src="http://ghbtns.com/github-btn.html?user=iamchrismiller&type=follow&count=false"
+                frameborder="0" scrolling="0" style="width:160px; height: 30px;"  allowTransparency="true"></iframe>
+    </div>
+
+    <div id="type-container"></div>
+</div>
+
+
+<script src="../build/typist.min.js"></script>
+
+<script>
+
+    document.onreadystatechange = function () {
+        if (document.readyState == "complete") {
+            //Start Typist
+            new Typist({
+                elementId          : 'type-container',
+                pointer            : '|',
+                typeSpeed          : 100,
+                timeout            : 3000,
+                random             : false,
+                pauseOnPunctuation : true,
+                scrub              : true,
+                start              : true
+            }, [
+                "Welcome to the Typist demo.",
+                "A Sentence Shuffling Typewriter." ,
+                "Written In Plain 'ol Javascript!",
+                "Install using Bower (bower install typist)",
+                "OR.",
+                "Clone the Typist project from GitHub",
+                "You can scrub the text letter by letter, or in one fell swoop.",
+                "No Need For jQuery and I can be styled anyway you like.",
+                "AMD? no problem. window Globals, sure...",
+                "You could even star the repo on GitHub if you like"
+            ]);
+        }
+    }
+</script>
+</body>
+</html>
