@@ -1,0 +1,26 @@
+{
+  "name"         : "typist",
+  "version"      : "0.1.0",
+  "ignore"       : [
+    ".jshintrc",
+    "**/*.txt",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies" : {
+  },
+  "homepage"     : "https://github.com/iamchrismiller/typist",
+  "authors"      : [
+    "Chris Miller <cmille142@gmail.com>"
+  ],
+  "description"  : "A Typist who writes and erases sentences/phrases",
+  "main"         : "build/typist.min.js",
+  "keywords"     : [
+    "typewriter",
+    "typing"
+  ],
+  "license"      : "MIT"
+}

@@ -1,0 +1,52 @@
+body {
+  font-family : "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight : 300;
+  margin      : 0;
+  padding     : 0;
+  overflow    : hidden;
+  background-color : #fff;
+
+  .absolute {
+    z-index : 0;
+    position : absolute;
+  }
+
+  .github-bar {
+    border-bottom: 1px solid rgb(238, 238, 238);
+    margin-bottom: 20px;
+    border-top: 1px solid rgb(238, 238, 238);
+    padding-top: 15px;
+  }
+
+  .intro {
+    width : 460px;
+    padding : 20px;
+    margin: 15% auto;
+    text-align: center;
+    font-size: 1.5em;
+    word-wrap: break-word;
+
+    .type-cursor {
+      display: inline-block;
+      padding-left : 2px;
+      margin-top: -4px;
+      vertical-align: top;
+    }
+
+    h2 {
+      color: rgb(0, 0, 0);
+      font-weight: 100;
+      margin: 10px auto;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2em;
+      opacity : .4;
+    }
+
+    p {
+      padding-top : 0;
+      margin-top : 0;
+      text-align : center;
+    }
+  }
+}

@@ -1,0 +1,111 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cmiller\/development\/src\/typist\/example\/assets\/scss\/layout\.scss}line{font-family:\000031}}
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cmiller\/development\/src\/typist\/example\/assets\/scss\/layout\.scss}line{font-family:\000039}}
+body .absolute {
+  z-index: 0;
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cmiller\/development\/src\/typist\/example\/assets\/scss\/layout\.scss}line{font-family:\0000314}}
+body .github-bar {
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 20px;
+  border-top: 1px solid #eeeeee;
+  padding-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cmiller\/development\/src\/typist\/example\/assets\/scss\/layout\.scss}line{font-family:\0000321}}
+body .intro {
+  width: 460px;
+  padding: 20px;
+  margin: 15% auto;
+  text-align: center;
+  font-size: 1.5em;
+  word-wrap: break-word;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cmiller\/development\/src\/typist\/example\/assets\/scss\/layout\.scss}line{font-family:\0000329}}
+body .intro .type-cursor {
+  display: inline-block;
+  padding-left: 2px;
+  margin-top: -4px;
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cmiller\/development\/src\/typist\/example\/assets\/scss\/layout\.scss}line{font-family:\0000336}}
+body .intro h2 {
+  color: black;
+  font-weight: 100;
+  margin: 10px auto;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  opacity: .4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cmiller\/development\/src\/typist\/example\/assets\/scss\/layout\.scss}line{font-family:\0000346}}
+body .intro p {
+  padding-top: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cmiller\/development\/src\/typist\/example\/assets\/scss\/animations\.scss}line{font-family:\000031}}
+.type-cursor {
+  -webkit-animation-name: blink;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: blink;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
